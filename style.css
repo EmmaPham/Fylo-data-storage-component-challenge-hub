@@ -195,6 +195,12 @@ main{
 }
 
 @media (max-width: 40em) {
+    
+    body{
+        background-image: url(./images/bg-mobile.png);
+        background-repeat: no-repeat;
+    }
+    
     .box{
     display: flex;
     flex-direction: column;
